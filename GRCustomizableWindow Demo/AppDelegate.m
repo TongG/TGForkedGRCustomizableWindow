@@ -43,6 +43,8 @@
     
     self.flWindow.titlebarColor = [NSColor colorWithCalibratedWhite:0.9 alpha:1.0];
     self.flWindow.enableGradients = NO;
+
+    [ self.window makeKeyAndOrderFront: self ];
 }
 
 @end
